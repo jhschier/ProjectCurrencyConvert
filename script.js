@@ -27,15 +27,15 @@ function convertValue() {
         }
 
         if (selectCurrency2.value == "dollar2") {
-            currencyConverted.innerHTML = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(inputCurrencyValue * dollarValue / realValue)
+            currencyConverted.innerHTML = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(inputCurrencyValue * realValue  / dollarValue)
         }
 
         if (selectCurrency2.value == "euro2") {
-            currencyConverted.innerHTML = new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR" }).format(inputCurrencyValue * euroValue / realValue)
+            currencyConverted.innerHTML = new Intl.NumberFormat("de-DE", { style: "currency", currency: "EUR" }).format(inputCurrencyValue * realValue / euroValue)
         }
 
         if (selectCurrency2.value == "pound2") {
-            currencyConverted.innerHTML = new Intl.NumberFormat("en-UK", { style: "currency", currency: "GBP" }).format(inputCurrencyValue * poundValue / realValue)
+            currencyConverted.innerHTML = new Intl.NumberFormat("en-UK", { style: "currency", currency: "GBP" }).format(inputCurrencyValue * realValue / poundValue)
         }
 
         if (selectCurrency2.value == "bitcoin2") {
@@ -43,7 +43,7 @@ function convertValue() {
         }
 
         if (selectCurrency2.value == "ethereum2") {
-            currencyConverted.innerHTML = new Intl.NumberFormat("de-DE", { style: "currency", currency: "ETH" }).format(inputCurrencyValue * ethereumValue / realValue)
+            currencyConverted.innerHTML = new Intl.NumberFormat("de-DE", { style: "currency", currency: "ETH" }).format(inputCurrencyValue * realValue / ethereumValue)
 
         }
     }

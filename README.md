@@ -14,11 +14,11 @@ Introducing the "Currency Converter" web application, crafted using HTML, CSS, a
 
 ex. 
 
-BTC to ETH & GBP
-ETH to BTC & GBP
-BRL to BTC & ETH
-USD to BTC & ETH
-EUR to BTC & ETH
+BTC to ETH & GBP;
+ETH to BTC & GBP;
+BRL to BTC & ETH;
+USD to BTC & ETH;
+EUR to BTC & ETH;
 EUR TO BTC & ETH
 
 

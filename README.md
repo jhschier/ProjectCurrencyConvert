@@ -9,8 +9,22 @@ Introducing the "Currency Converter" web application, crafted using HTML, CSS, a
 
 - Currency conversion for Dollar, Real, Euro, Pound, Bitcoin, and Ethereum.
 - User-friendly interface for seamless input and output.
-- Utilizes static currency values as of 17/09/2023 (not real-time).
 - HTML and CSS contribute to the project's structure and styling.
+- Some conversions have not the current market value, just static values.
+
+ex. 
+
+BTC to ETH & GBP
+ETH to BTC & GBP
+BRL to BTC & ETH
+USD to BTC & ETH
+EUR to BTC & ETH
+EUR TO BTC & ETH
+
+
+## RECENTLY ADDED:
+
+- API connection to GET current value of some currencies.
 
 ## Technologies Used
 
@@ -24,4 +38,4 @@ Introducing the "Currency Converter" web application, crafted using HTML, CSS, a
 
 ## About
 
-The "Currency Converter" project reflects my introductory experience with JavaScript and showcases my capacity to design a practical web application for currency conversion. It features a user-friendly interface and employs static values as of 17/09/2023 for accurate conversions.
+The "Currency Converter" project reflects my introductory experience with JavaScript and showcases my capacity to design a practical web application for currency conversion. It features a user-friendly interface and employs values for accurate conversions.

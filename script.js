@@ -18,10 +18,11 @@ const convertValue = async () => {
     const currencyToConvert = document.querySelector(".currency-value")
     const currencyConverted = document.querySelector(".converted-value")
 
-    const endpoint = "http://economia.awesomeapi.com.br/json/last/BRL-USD,BRL-EUR,BRL-GBP,USD-BRL,USD-EUR,USD-GBP,EUR-BRL,EUR-USD,EUR-GBP,GBP-BRL,GBP-USD,GBP-EUR,BTC-BRL,BTC-USD,BTC-EUR,ETH-BRL,ETH-USD,ETH-EUR"
+    const endpoint = "http://economia.awesomeapi.com.br/last/BRL-USD,BRL-EUR,BRL-GBP,USD-BRL,USD-EUR,USD-GBP,EUR-BRL,EUR-USD,EUR-GBP,GBP-BRL,GBP-USD,GBP-EUR,BTC-BRL,BTC-USD,BTC-EUR,ETH-BRL,ETH-USD,ETH-EUR"
 
     const data = await fetch(endpoint).then(response => response.json())
     
+   
    
 
     //REAL
